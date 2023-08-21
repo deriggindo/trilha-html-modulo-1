@@ -4,59 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <title>Módulo I - Primeiros Passos com HTML</title>
+    <link rel="shorcut icon" href="/favicon.png">
 </head>
 <body>
     <h1>Módulo 1 - Primeiros Passos com HTML</h1>
     <hr />
 
-    <h2>Índice</h2>
+    <h2 id="indice">Índice</h2>
     <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="historia">História dos computadores</h2>
+    <small><a href="#indice">(Voltar)</a></small>
+    <p>O primeiro dispositivo a ser considerado um computador foi o <strong>Harvard Mark I</strong>, criado em 1944 nos Estados Unidos. Ele ocupava uma sala inteira pois funcionava à base de dispositivos eletromecânicos chamados válvulas (imagem abaixo)</p>
+    <img src="harvard-mark-i.png" alt="Harvard Mark I, o primeiro computador. Foto de 1944">
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <small><a href="#indice">(Voltar)</a></small>
+    <p>São os dispositivos pelos quais os usuários finais vão estar acessando, seja através da intranet ou da internet. O conteúdo desejado costuma ser acessado através de um navegador (browser) ou um aplicativo.</p>
+    <img src="client-server.png" width="500" alt="Exemplo de uma relação básica entre client (usuário final) e o server (servidor)">
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <small><a href="#indice">(Voltar)</a></small>
+    <p>Servers (do inglês: "servidores") são os dispositivos responsáveis por se comunicar com o usuário final (client) para fornecer a informação desejada. Existem diferentes tipos de servidores: os que fazem a ponte entre o client e o banco de dados pela intranet, os que protegem a rede de ameaças externas, os que traduzem o endereço de texto para números (DNS), endereçamento de email e streaming de conteúdo (geralmente vídeos).</p>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <h2 id="estrutura">Como é uma estrutura básica de um <abbr title="Linguagem de Marcação de Hipertexto (do inglês: HyperText Markup Language)">HTML</abbr>?</h2>
+    <small><a href="#indice">(Voltar)</a></small>
+    <p>O <abbr title="Linguagem de Marcação de Hipertexto (do inglês: HyperText Markup Language)">HTML</abbr> é um arquivo estruturado em três partes principais: Doctype, Head e Body.
+       <ul>
+         <li><strong>DOCTYPE:</strong> serve para declarar a versão de HTML que está sendo utilizada no documento. Por padrão, os navegadores consideram a versão 5.</p></li>
+         <li><strong>HEAD:</strong> é o cabeçalho do documento. Costuma compor elementos que não são visíveis aos usuários (tags de rastreamento, gatilhos, importação de arquivos), mas também informa o título e o ícone da página</p></li>
+         <li><strong>FOOTER:</strong> é o corpo do documento. Onde será mostrado todo o conteúdo.</p></li>
+       </ul>
+    <p>Além disso, é importante explicarmos os conceitos e utilização de Tags e Atributos (confira abaixo).</p>
+    <h3>Tags</h3>
+    <p>As tags são elementos usados para informar ao navegador a estrutura do site. Ou seja, o navegador vai ler o arquivo HTML e gerar o conteúdo visual de acordo com a estrutura apresentada. As tags são sempre escritas dentro dos sinais "maior que" e "menor que": < >
+    <br><u>Exemplo 1:</u> para informar ao navegador que você vai iniciar o cabeçalho do arquivo HTML, você deve iniciar o texto com a tag < head>; da mesma forma, utilizamos a tag de fechamento < /head> para indicar que nosso cabeçalho finalizou.
+    <br><u>Exemplo 2:</u> para informar a estrutura de Título 1 (prinicipal) e subtítulos, o HTML utiliza as tags < h1>, < h2>, ... até o < h6>. Confira abaixo um exemplo de como a formatação muda de acordo com a tag:
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+      <h1>Título 1 | tag < h1></h1>
+      <h2>Título 2 | tag < h2></h2>
+      <h3>Título 3 | tag < h3></h3>
+      <h4>Título 4 | tag < h4></h4>
+      <h5>Título 5 | tag < h5></h5>
+      <h6>Título 6 | tag < h6></h6>
     </ul>
+    </p>
 
+    <h3>Atributos</h3>
+    <p>Atributos são as características que podemos fornecer a uma tag. Se você cria uma tag de link, você pode atribuir a URL para a qual o link vai redirecionar, bem como solicitar que o navegador abra o link em uma nova aba. Já na tag de imagem < img>, você pode atribuir características como a altura e largura da imagem, um texto descritivo para acessibilidade e o link da origem da imagem.
+    <br><u>Exemplo:</u> Abaixo está a linha de código que faz o navegador abrir um link externo em uma nova aba. Os termos "href" e "target" são os atributos da tag "a".
+    <ul><code>< a href="https://www.javatpoint.com/html-5-tags" target="_blank">javatpoint.com< /a></code></ul>
+    </p>
+
+    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <small><a href="#indice">(Voltar)</a></small>
+    <h3>Listas Ordenadas</h3>
+    <p>
+      Listas que apresentam uma ordenação de ítens a ser apresentada. Pode ser uma lista crescente ou decrescente feita com números ou letras.
+      Para isso, utilize as tags de abertura <strong>< ol></strong> e de fechamento <strong>< /ol></strong>.
+      <br><u>Exemplo:</u>
+    </p>
+      <ol>
+         <li>Primeiro Capítulo</li>
+         <li>Segundo Capítulo</li>
+         <li>Terceiro Capítulo
+            <ol>
+               <li>Primeiro Subcapítulo do Capítulo 3</li>
+               <li>Segundo Subcapítulo do Capítulo 3</li>
+               <li>Terceiro Subcapítulo do Capítulo 3</li>
+            </ol>
+         </li>
+      </ol>
+   <h3>Listas Não-Ordenadas</h3>
+   <p>Listas que apresentam uma listagem de ítens sem uma ordem específica. Para isso, utilize as tags de abertura <strong><code>< ul></code></strong> e de fechamento <strong>< /ul></strong>.
+      <br><u>Exemplo:</u>
+   </p>
+      <ul>
+         <li>Primeiro Capítulo</li>
+         <li>Segundo Capítulo</li>
+         <li>Terceiro Capítulo
+            <ul>
+               <li>Primeiro Subcapítulo do Capítulo 3</li>
+               <li>Segundo Subcapítulo do Capítulo 3</li>
+               <li>Terceiro Subcapítulo do Capítulo 3</li>
+            </ul>
+         </li>
+      </ul>
+
+    <h2 id="referencias">Links de referências</h2>
+    <small><a href="#indice">(Voltar)</a></small>
+    <ul>
+        <li><a href="https://dio.me" target="_blank">dio.me</a></li>
+        <li><a href="https://w3c.org" target="_blank">w3c.org</a></li>
+        <li><a href="https://www.tutorialspoint.com/html5/html5_tags.htm" target="_blank">tutorialspoint.com</a></li>
+        <li><a href="https://www.javatpoint.com/html-5-tags" target="_blank">javatpoint.com</a></li>
+      </ul>
 </body>
 </html>
